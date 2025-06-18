@@ -1,0 +1,21 @@
+[application]
+config/name="Corporate Life Simulator"
+run/main_scene="res://Main.tscn"
+config/icon="res://icon.svg"
+
+[autoload]
+GameManager="*res://GameManager.gd"
+LocationManager="*res://LocationManager.gd"
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+
+[input]
+ui_accept={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"device":0,"keycode":32,"pressed":false)]
+}
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
