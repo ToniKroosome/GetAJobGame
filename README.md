@@ -1,10 +1,11 @@
 # GetAJobGame
 
-This repository contains a very small Godot 4 prototype. It includes a
-simple player that can move around and a basic farm grid made from
-dynamically generated tiles. The project is configured to autoload the
-`GameManager.gd` and `LocationManager.gd` scripts and uses `Main.tscn`
-as the main scene.
+This repository contains a small Godot 4 prototype for a job-searching
+life simulator. The player can move around and interact with a simple
+`JobBoard` of listings. Autoload scripts (`GameManager.gd`,
+`LocationManager.gd`, and `Calendar.gd`) provide basic structure while
+`Main.tscn` loads a minimal scene.
 
-Open the project in Godot 4 to see the player moving on a 5x5 grid of
-farm tiles.
+Open the project in Godot 4 to see the player move and select job
+listings. The scripts are placeholders for future systems like skills,
+money management, and NPC interactions.
