@@ -6,6 +6,7 @@ config/icon="res://icon.svg"
 [autoload]
 GameManager="*res://GameManager.gd"
 LocationManager="*res://LocationManager.gd"
+Calendar="*res://Calendar.gd"
 
 [display]
 window/size/viewport_width=1280
