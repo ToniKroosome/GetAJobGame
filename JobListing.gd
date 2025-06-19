@@ -1,4 +1,5 @@
 extends Node2D
+class_name JobListing
 
 ## Represents a single job listing the player can interact with.
 enum State { OPEN, APPLIED, INTERVIEWED, HIRED }
@@ -38,6 +39,7 @@ func interview():
 func hire():
     if state == State.INTERVIEWED:
         state = State.HIRED
+        gm.current_job = self
         update()
 
 func interact():

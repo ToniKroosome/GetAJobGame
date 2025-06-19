@@ -11,4 +11,4 @@ the player toward one of the job listings. Press the **Space** key while
 standing next to a listing to interact. Each interaction progresses the
 application from applying to interviewing, hiring, and finally working the
 job for a small salary. A simple HUD at the top left shows money,
-energy, happiness and the current day.
+energy, happiness, the current day, and your current job once hired.
